@@ -1,0 +1,48 @@
+# ── Model weights & large binaries ────────────────────────────
+outputs/
+burns/
+fused_model/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+
+# ── Source PDF (copyright) ─────────────────────────────────────
+*.pdf
+
+# ── Generated data (reproducible from pipeline) ───────────────
+data/chunks.jsonl
+data/enriched.jsonl
+data/seeds.jsonl
+data/train.jsonl
+data/valid.jsonl
+eval/results.jsonl
+
+# ── Keep eval chart ───────────────────────────────────────────
+!eval/rouge_chart.png
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Environments ──────────────────────────────────────────────
+.env
+.venv
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
