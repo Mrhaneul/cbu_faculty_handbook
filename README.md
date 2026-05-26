@@ -5,10 +5,10 @@ Fine-tune a local language model on the California Baptist University Employee M
 
 Two notebooks are provided — pick the one that matches your hardware:
 
-| Notebook | Hardware | Model | Framework |
-|----------|----------|-------|-----------|
-| `CBU_Faculty_Finetune_MLX.ipynb` | Mac Apple Silicon (M1–M4) | Gemma 4 E4B | MLX + LoRA |
-| `CBU_Faculty_Finetune_Colab.ipynb` | Google Colab (free T4 GPU) | Gemma 2-2B | Unsloth + QLoRA |
+| Notebook | Hardware | Model | Framework | Launch |
+|----------|----------|-------|-----------|--------|
+| `CBU_Faculty_Finetune_MLX.ipynb` | Mac Apple Silicon (M1–M4) | Gemma 4 E4B | MLX + LoRA | |
+| `CBU_Faculty_Finetune_Colab.ipynb` | Google Colab (free T4 GPU) | Gemma 2-2B | Unsloth + QLoRA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mrhaneul/cbu_faculty_handbook/blob/main/CBU_Faculty_Finetune_Colab.ipynb) |
 
 ---
 
